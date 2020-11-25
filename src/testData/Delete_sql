@@ -1,0 +1,28 @@
+USE hosted;
+
+DELETE FROM account WHERE acct_companyname = 'HopewiserAccountTestEdit';
+DELETE FROM account WHERE acct_companyname = 'HopewiserAccountTest';
+DELETE FROM plan WHERE plan_name = 'HopewiserPlanEdit';
+DELETE FROM plan WHERE plan_name = 'HopewiserPlan';
+DELETE FROM maf WHERE maf_name = 'HopewiserMAF Edit';
+DELETE FROM maf WHERE maf_name = 'HopewiserMAF';
+DELETE FROM costcentre WHERE cost_name = 'Cost Centre Test23 Edit';
+DELETE FROM costcentre WHERE cost_name = 'Cost Centre Test23';
+DELETE FROM users WHERE user_login = 'Qatest-cca-ha1'; 
+DELETE FROM users WHERE user_login = 'Qatest-ca-ha1';
+DELETE FROM users WHERE user_login = 'QAtest-ha-hu';
+DELETE FROM users WHERE user_login = 'QAtest-ha-ca';	
+DELETE FROM users WHERE user_login = 'QAtest-ha-cca';	
+DELETE FROM users WHERE user_login = 'Qatest-su-ha1';	
+DELETE FROM users WHERE user_login = 'Qatest-ha-ha1';	
+DELETE FROM users WHERE user_login = 'Qatest-hu-ha';	
+DELETE FROM users WHERE user_login = 'Qatest-ca-ha';	
+DELETE FROM users WHERE user_login = 'Qatest-cca-ha';  	
+DELETE FROM users WHERE user_login = 'Qatest-su-ha';	
+DELETE FROM users WHERE user_login = 'Qatest-ca-ca';	
+DELETE FROM users WHERE user_login = 'Qatest-cca-cca';	
+DELETE FROM users WHERE user_login = 'Qatest-su-cca';	
+DELETE FROM users WHERE user_login = 'Qatest-cca-ca';	
+DELETE FROM users WHERE user_login = 'Qatest-su-ca';	
+DELETE FROM users WHERE user_login = 'QAReg-ca';		
+DELETE FROM account WHERE acct_companyname = 'QA Testing Account';

@@ -1,0 +1,2 @@
+USE hosted;
+SELECT user_forgotcode FROM `users` WHERE user_login = 'HopewiserAdmin';
